@@ -13,19 +13,12 @@ describe("generatePrefix", () => {
             { dirName: ".gitignore", depth: 1, isLast: false },
         ]
 
-        // @ts-ignore
         expect(generatePrefix(allLines[0], allLines)).toBe("├─ ");
-        // @ts-ignore
         expect(generatePrefix(allLines[1], allLines)).toBe("│  ├─ ");
-        // @ts-ignore
         expect(generatePrefix(allLines[2], allLines)).toBe("│  │  ├─ ");
-        // @ts-ignore
         expect(generatePrefix(allLines[3], allLines)).toBe("│  │  │  └─ ");
-        // @ts-ignore
         expect(generatePrefix(allLines[4], allLines)).toBe("│  │  └─ ");
-        // @ts-ignore
         expect(generatePrefix(allLines[5], allLines)).toBe("│  │     └─ ");
-        // @ts-ignore
         expect(generatePrefix(allLines[6], allLines)).toBe("├─ ");
     })
 })
