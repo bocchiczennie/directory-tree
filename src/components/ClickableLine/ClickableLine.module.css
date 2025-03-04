@@ -1,0 +1,17 @@
+.button {
+    display: flex;
+    border-radius: var(--border-radius-sm);
+    transition: background-color var(--transition-duration-short);
+    cursor: pointer;
+}
+
+.button:focus-visible {
+    background-color: var(--background-hover);
+    outline: none;
+}
+
+@media (any-hover: hover) {
+    .button:hover {
+        background-color: var(--background-hover);
+    }
+}

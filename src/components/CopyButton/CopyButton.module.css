@@ -1,0 +1,11 @@
+.button {
+    position: relative;
+    padding-inline: 12px;
+    padding-block: 8px;
+    color: var(--foreground);
+    background-color: var(--background);
+    border: 1px solid currentColor;
+    border-radius: var(--border-radius-sm);
+    transition: background-color var(--transition-duration-short);
+    cursor: pointer;
+}
