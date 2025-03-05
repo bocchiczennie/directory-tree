@@ -3,6 +3,7 @@ import { generatePrefix } from "./generatePrefix/generatePrefix";
 import { isLastLine } from "./isLastLine/isLastLine";
 import { resolveFullPath } from "./resolveFullPath/resolveFullPath";
 import { separateLines } from "./separateLines/separateLines";
+import { FormattedLine } from "@/types/formattedLine";
 
 export const formatTextAsDirectoryTree = (text: string) => {
     const formattedLines: FormattedLine[] = separateLines(text)
