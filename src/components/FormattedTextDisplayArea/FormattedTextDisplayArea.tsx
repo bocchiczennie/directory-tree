@@ -2,8 +2,8 @@
 
 import { useFormat } from "@/hooks";
 import { CodeMirrorEditor } from "../CodeMirrorEdditor/CodeMirrorEdditor";
-import {CopyButton} from "@/components/CopyButton/CopyButton";
-import {ClickableLine} from "@/components/ClickableLine/ClickableLine";
+import {　CopyButton　} from "@/components/CopyButton/CopyButton";
+import {　ClickableLine　} from "@/components/ClickableLine/ClickableLine";
 import styles from "./FormattedTextDisplayArea.module.css";
 
 export const FormattedTextDisplayArea = () => {
